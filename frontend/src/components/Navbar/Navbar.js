@@ -14,7 +14,7 @@ const Navbar = () => { // ✅ Make sure "Navbar" starts with an uppercase letter
           <li><Link to="/" className="text-white hover:text-gray-300">Home</Link></li>
           <li><Link to="/about" className="text-white hover:text-gray-300">About</Link></li>
           <li><Link to="/projects" className="text-white hover:text-gray-300">Projects</Link></li>
-          <li><Link to="/contact" className="text-white hover:text-gray-300">Contact us</Link></li>
+          <li><Link to="/contact" className="text-white hover:text-gray-300">Contact US</Link></li>
         </ul>
 
         <button className="md:hidden text-white" onClick={() => setIsOpen(!isOpen)}>
